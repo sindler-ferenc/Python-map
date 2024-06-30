@@ -1,4 +1,4 @@
-import random
+# if-elif-else szerkezet 
 szam = int(input('Adj meg egy számot! '))
 if szam < 0:
     print('A megadott szám negatív.')
@@ -8,7 +8,8 @@ else:
     print('A megadott szám pozitív.')
 print('>> A program vége! <<')
 
-
+# Match ... case szerkezet
+import random
 a = random.randint(0, 10)
 b = random.randint(0, 10)
 print(f'Itt van két szám {a} és {b}, milyen műveletet végezzek velük? ')
@@ -29,7 +30,7 @@ match valasz:
         # case _:
         print('?!')
 
-
+# ...
 x = 5
 y = -3
 
@@ -42,11 +43,7 @@ if x < 0 or y < 0:
 if not x <= 0:
     print('x pozitív')
 
-
-import random
-random_szam = random.randint(1, 10)
-print(random_szam)
-
+# ord és chr
 
 # Az ord() függvény
 # az adott betű Unicode értékével tér vissza
