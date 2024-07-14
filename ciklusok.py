@@ -47,7 +47,7 @@ while sor <= 3:
     print('')
     sor = sor + 1       
 
-# Hány alkalommal írja ki a program a "Hello!" üzenetet? 
+# Hány alkalommal írja ki a program a "Hello!" üzenetet? = 3
 n = 1
 while n < 3:
     m = n + 1
